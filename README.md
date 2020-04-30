@@ -1,5 +1,6 @@
 # รายงานวิชา CN210 
 สถาปัตยากรรมคอมพิวเตอร์
+## CLIP1
 ## สิ่งที่ควรรู้
 - ใน CPU MIPS คำสั่งมีขนาด 32-bit เเบ่งเป็น 3 แบบ คือ
   <br>1.R-type ส่วนประกอบคือ
@@ -30,14 +31,14 @@
 - ลิ้งค์คลิป [CLIP1(คำสั่งAdd)](ลิ้ง)
 
 
-# CLIP2:การทำงานเเต่ละคำสั่งของคอมพิวเตอร์
+## CLIP2:การทำงานเเต่ละคำสั่งของคอมพิวเตอร์
 - โดยทั่วไปแล้วคอมพิวเตอร์ไมได้เข้าใจภาษาที่มนุษย์พูดเลยคอมพิวเตอร์เข้าใจเพียงเเต่ตัวเลขที่ต่อๆกันมาในรูปเเบบฐาน2,8,16
   เเต่กลับกันคนเราก็ไม่เข้าใจภาษาเครื่องคอมพิวเตอร์เช่นกันดังนั้นเราจึงต้องแปลคำสั่งที่เราเข้าใจให้เป็นตัวเลขเพื่อให้เครื่องสามารถ
   ทำงานตามที่เราบอกได้โดยขั้นตอนเเละวิธีการอธิบายไว้อยู่ในคลิปหมดเเล้ว
 - ลิ้งค์คลิป [CLIP2(การทำงานเเต่ละคำสั่งของคอมพิวเตอร์)](ลิ้ง)
 
 
-# CLIP3:Singlecycle and Multicycle
+## CLIP3:Singlecycle and Multicycle
 
 - แบบ singlecycle 
 
@@ -62,7 +63,7 @@
   
 - ลิ้งค์คลิป [CLIP3(Singlecycle and Multicycle)](ลิ้ง)
   
-# CLIP4:การทำงานของคำสั่ง lw(load word) แบบ Multicycle
+## CLIP4:การทำงานของคำสั่ง lw(load word) แบบ Multicycle
 
 - คำสั่ง lw นั้นมีขั้นตอนทั้งหมด 5 step(T1-T5)
   <br>T1 : IR = Memory[PC] ,pc + 4 
@@ -72,7 +73,7 @@
   <br>T5 : B = Memory data register
 - รายละเอียดเพื่มเติมในคลิป [CLIP4(lw in muticycle)](ลิ้ง)
   
-# CLIP5:การทำงานของคำสั่ง beq(branch on equal) แบบ Multicycle
+## CLIP5:การทำงานของคำสั่ง beq(branch on equal) แบบ Multicycle
 
 - คำสั่ง beq นั้นมีขั้นตอนทั้งหมด 3 step(T1-T3)
   <br>T1 : IR = Memory[PC] ,pc + 4 
@@ -80,7 +81,7 @@
   <br>T3 : If(A==B) PC = ALUout 
 - รายละเอียดเพื่มเติมในคลิป [CLIP5(beq in muticycle)](ลิ้ง)
 
-# CLIP6:คำสั่ง R-Type ใน state machine แบบ multicycle
+## CLIP6:คำสั่ง R-Type ใน state machine แบบ multicycle
 
 - คำสั่ง R-Type ใน state machine แบบ multicycle มี ทั้งหมด 4 step
 
@@ -102,6 +103,6 @@
   
   <br>รายละเอียดเพิ่มเติม [CLIP6(state machine)](ลิ้ง)
   
-# CLIP7:หลักการ Pipelining
+## CLIP7:หลักการ Pipelining
 - Pipeline คือการทำงานแบบคาบเกี่ยวกัน (overlap) โดยการแบ่งซีพียูออกเป็นส่วนย่อย ๆ แล้วแบ่งงานกันรับผิดชอบ
 - งาน[CLIP7(pipelining)](ลิ้ง)
