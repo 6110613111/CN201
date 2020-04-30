@@ -27,14 +27,14 @@
   <br>3.เติมobcodeขนาด6บิทของคำสั่งjumpซึ่งมีค่า 001000 ไปข้างหน้า
   <br>4.จะได้คำสั่งขนาด32บิทจากนั้นแปลงเป็นเลขฐาน16จะได้คำสั่งที่คอมพิวเตอร์เข้าใจ
   
-- ลิ้งค์คลิป [CLIP1(คำสั่งAdd)](https://youtu.be/U5B8R18Q3nM)
+- ลิ้งค์คลิป [CLIP1(คำสั่งAdd)](ลิ้ง)
 
 
 # CLIP2:การทำงานเเต่ละคำสั่งของคอมพิวเตอร์
 - โดยทั่วไปแล้วคอมพิวเตอร์ไมได้เข้าใจภาษาที่มนุษย์พูดเลยคอมพิวเตอร์เข้าใจเพียงเเต่ตัวเลขที่ต่อๆกันมาในรูปเเบบฐาน2,8,16
   เเต่กลับกันคนเราก็ไม่เข้าใจภาษาเครื่องคอมพิวเตอร์เช่นกันดังนั้นเราจึงต้องแปลคำสั่งที่เราเข้าใจให้เป็นตัวเลขเพื่อให้เครื่องสามารถ
   ทำงานตามที่เราบอกได้โดยขั้นตอนเเละวิธีการอธิบายไว้อยู่ในคลิปหมดเเล้ว
-- ลิ้งค์คลิป [CLIP2(การทำงานเเต่ละคำสั่งของคอมพิวเตอร์)](https://www.youtube.com/watch?v=kX9hZPzyaBc&t=19s)
+- ลิ้งค์คลิป [CLIP2(การทำงานเเต่ละคำสั่งของคอมพิวเตอร์)](ลิ้ง)
 
 
 # CLIP3:Singlecycle and Multicycle
@@ -60,7 +60,7 @@
   <br>4.การทำงานของเเต่ละคำสั่งไม่เท่ากัน
   <br>5.มีการเก็บข้อมูลไว้ที่เเต่ละจุด
   
-- ลิ้งค์คลิป [CLIP3(Singlecycle and Multicycle)](https://www.youtube.com/watch?v=ns2NKb_gKvM)
+- ลิ้งค์คลิป [CLIP3(Singlecycle and Multicycle)](ลิ้ง)
   
 # CLIP4:การทำงานของคำสั่ง lw(load word) แบบ Multicycle
 
@@ -70,7 +70,7 @@
   <br>T3 : ALUout = A + (sign-extend(IR[15-0])
   <br>T4 : Memory data register = Memmory(AlUout)
   <br>T5 : B = Memory data register
-- รายละเอียดเพื่มเติมในคลิป [CLIP4(lw in muticycle)](https://www.youtube.com/watch?v=Z5NQPWH3Bhk&t=4s)
+- รายละเอียดเพื่มเติมในคลิป [CLIP4(lw in muticycle)](ลิ้ง)
   
 # CLIP5:การทำงานของคำสั่ง beq(branch on equal) แบบ Multicycle
 
@@ -78,7 +78,7 @@
   <br>T1 : IR = Memory[PC] ,pc + 4 
   <br>T2 : A=Reg[IR[25-21]] ,B=Reg[IR[20-16]] ,ALUout = PC+(sign-extend(IR[15-0])<<2)
   <br>T3 : If(A==B) PC = ALUout 
-- รายละเอียดเพื่มเติมในคลิป [CLIP5(beq in muticycle)](https://www.youtube.com/watch?v=bck_AWRrWS4)
+- รายละเอียดเพื่มเติมในคลิป [CLIP5(beq in muticycle)](ลิ้ง)
 
 # CLIP6:คำสั่ง R-Type ใน state machine แบบ multicycle
 
@@ -100,8 +100,8 @@
 
   <br>![t4](https://lh3.googleusercontent.com/MsGCNeBmATQpM0CdvzNShlgpUbsQILblSVyiALrhNKXJUqQysxFacK_JeDRQyaH-31MAQYFxq_3mPPEZ_5Ycd_XyZiyIBYZU_OnRealZ9R813ahvj3Uo6ep-3-_MzXf2k7jdPe1Lvj9fdJF7C-1vPPR2TPP6gIZe6d11H2r1quQUk3BkcobE9pMghqEtUI3J9tIc6GEIG2SiOCFt9gDi6T_XUJWalBbj4ypY0js58jF4xU40N-dMNEh5wuob9FtWPoLWlPLKxu5T_8SjDLdK3sXdTGnZ8fsFKqnVIponme1bMrxG4v7OsU31CuueMmW7ZJw_IDGoeb5PgSxfqjLVRlWDEJivUPnB28SFijFVB6oR8wUBmfUSMzeTzvPb04Sw86SiHhKn-7K4VBd8J6nlzCYQvDCqRaiUWtFbmt_EFlVT0Q2VVbmliFJaStOJC4Pr0T-usgpJ5pXK_t9Qb1oGFxbMEvzBOjs2Ybw4Pl93ZXCg8zteOctEiCjH3CzIj7t6ZdPt3Vclob8XLFxbdDsVTgsreZjvwMClpHt_CVQbocZheOx5E7kvQS6Zqnit6HEGr_YFsN88qXb9pjkxqgcJK5UF5TALeam03LZzzhxw8J9245nnDEWg11vVxrvHQr0WYCcDnvChEOLQrdizuSDwYeD-Jr6Pd_mP51gIONl13ePsdY_B1F5pd_c7ggnRL52pl6-VAevmpzfN55zmL-bD_cMSe55Ctff5WH_q23Lcw0HYJ99rreuq=w783-h578-no)
   
-  <br>รายละเอียดเพิ่มเติม [CLIP6(state machine)](https://www.youtube.com/watch?v=FtLYTSzzU7I)
+  <br>รายละเอียดเพิ่มเติม [CLIP6(state machine)](ลิ้ง)
   
 # CLIP7:หลักการ Pipelining
 - Pipeline คือการทำงานแบบคาบเกี่ยวกัน (overlap) โดยการแบ่งซีพียูออกเป็นส่วนย่อย ๆ แล้วแบ่งงานกันรับผิดชอบ
-- งาน[CLIP7(pipelining)](https://youtu.be/Xa014l4KN6k)
+- งาน[CLIP7(pipelining)](ลิ้ง)
