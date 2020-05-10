@@ -101,7 +101,7 @@
 
   <br>![t4](https://lh3.googleusercontent.com/MsGCNeBmATQpM0CdvzNShlgpUbsQILblSVyiALrhNKXJUqQysxFacK_JeDRQyaH-31MAQYFxq_3mPPEZ_5Ycd_XyZiyIBYZU_OnRealZ9R813ahvj3Uo6ep-3-_MzXf2k7jdPe1Lvj9fdJF7C-1vPPR2TPP6gIZe6d11H2r1quQUk3BkcobE9pMghqEtUI3J9tIc6GEIG2SiOCFt9gDi6T_XUJWalBbj4ypY0js58jF4xU40N-dMNEh5wuob9FtWPoLWlPLKxu5T_8SjDLdK3sXdTGnZ8fsFKqnVIponme1bMrxG4v7OsU31CuueMmW7ZJw_IDGoeb5PgSxfqjLVRlWDEJivUPnB28SFijFVB6oR8wUBmfUSMzeTzvPb04Sw86SiHhKn-7K4VBd8J6nlzCYQvDCqRaiUWtFbmt_EFlVT0Q2VVbmliFJaStOJC4Pr0T-usgpJ5pXK_t9Qb1oGFxbMEvzBOjs2Ybw4Pl93ZXCg8zteOctEiCjH3CzIj7t6ZdPt3Vclob8XLFxbdDsVTgsreZjvwMClpHt_CVQbocZheOx5E7kvQS6Zqnit6HEGr_YFsN88qXb9pjkxqgcJK5UF5TALeam03LZzzhxw8J9245nnDEWg11vVxrvHQr0WYCcDnvChEOLQrdizuSDwYeD-Jr6Pd_mP51gIONl13ePsdY_B1F5pd_c7ggnRL52pl6-VAevmpzfN55zmL-bD_cMSe55Ctff5WH_q23Lcw0HYJ99rreuq=w783-h578-no)
   
-  <br>รายละเอียดเพิ่มเติม [CLIP6(state machine)](ลิ้ง)
+  <br>รายละเอียดเพิ่มเติม [CLIP6(state machine)](https://youtu.be/RPju27-zyPM)
   
 ## CLIP7:หลักการ Pipelining
 - Pipeline คือการทำงานแบบคาบเกี่ยวกัน (overlap) โดยการแบ่งซีพียูออกเป็นส่วนย่อย ๆ แล้วแบ่งงานกันรับผิดชอบ
