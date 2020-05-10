@@ -105,4 +105,4 @@
   
 ## CLIP7:หลักการ Pipelining
 - Pipeline คือการทำงานแบบคาบเกี่ยวกัน (overlap) โดยการแบ่งซีพียูออกเป็นส่วนย่อย ๆ แล้วแบ่งงานกันรับผิดชอบ
-- งาน[CLIP7(pipelining)](ลิ้ง)
+- งาน[CLIP7(pipelining)](https://youtu.be/-JFoUs5Kfe0)
