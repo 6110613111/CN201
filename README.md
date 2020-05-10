@@ -28,14 +28,14 @@
   <br>3.เติมobcodeขนาด6บิทของคำสั่งjumpซึ่งมีค่า 001000 ไปข้างหน้า
   <br>4.จะได้คำสั่งขนาด32บิทจากนั้นแปลงเป็นเลขฐาน16จะได้คำสั่งที่คอมพิวเตอร์เข้าใจ
   
-- ลิ้งค์คลิป [CLIP1(คำสั่งAdd)](ลิ้ง)
+- ลิ้งค์คลิป [CLIP1(คำสั่งAdd)](https://youtu.be/TIVSc03Wvfw)
 
 
 ## CLIP2:การทำงานเเต่ละคำสั่งของคอมพิวเตอร์
 - โดยทั่วไปแล้วคอมพิวเตอร์ไมได้เข้าใจภาษาที่มนุษย์พูดเลยคอมพิวเตอร์เข้าใจเพียงเเต่ตัวเลขที่ต่อๆกันมาในรูปเเบบฐาน2,8,16
   เเต่กลับกันคนเราก็ไม่เข้าใจภาษาเครื่องคอมพิวเตอร์เช่นกันดังนั้นเราจึงต้องแปลคำสั่งที่เราเข้าใจให้เป็นตัวเลขเพื่อให้เครื่องสามารถ
   ทำงานตามที่เราบอกได้โดยขั้นตอนเเละวิธีการอธิบายไว้อยู่ในคลิปหมดเเล้ว
-- ลิ้งค์คลิป [CLIP2(การทำงานเเต่ละคำสั่งของคอมพิวเตอร์)](ลิ้ง)
+- ลิ้งค์คลิป [CLIP2(การทำงานเเต่ละคำสั่งของคอมพิวเตอร์)](https://youtu.be/jpOfA3rgDXY)
 
 
 ## CLIP3:Singlecycle and Multicycle
@@ -61,7 +61,7 @@
   <br>4.การทำงานของเเต่ละคำสั่งไม่เท่ากัน
   <br>5.มีการเก็บข้อมูลไว้ที่เเต่ละจุด
   
-- ลิ้งค์คลิป [CLIP3(Singlecycle and Multicycle)](ลิ้ง)
+- ลิ้งค์คลิป [CLIP3(Singlecycle and Multicycle)](https://youtu.be/1derkzmjMsY)
   
 ## CLIP4:การทำงานของคำสั่ง lw(load word) แบบ Multicycle
 
@@ -71,7 +71,7 @@
   <br>T3 : ALUout = A + (sign-extend(IR[15-0])
   <br>T4 : Memory data register = Memmory(AlUout)
   <br>T5 : B = Memory data register
-- รายละเอียดเพื่มเติมในคลิป [CLIP4(lw in muticycle)](ลิ้ง)
+- รายละเอียดเพื่มเติมในคลิป [CLIP4(lw in muticycle)](https://youtu.be/800tdD4IBVg)
   
 ## CLIP5:การทำงานของคำสั่ง beq(branch on equal) แบบ Multicycle
 
@@ -79,7 +79,7 @@
   <br>T1 : IR = Memory[PC] ,pc + 4 
   <br>T2 : A=Reg[IR[25-21]] ,B=Reg[IR[20-16]] ,ALUout = PC+(sign-extend(IR[15-0])<<2)
   <br>T3 : If(A==B) PC = ALUout 
-- รายละเอียดเพื่มเติมในคลิป [CLIP5(beq in muticycle)](ลิ้ง)
+- รายละเอียดเพื่มเติมในคลิป [CLIP5(beq in muticycle)](https://youtu.be/dxRPsdNezaU)
 
 ## CLIP6:คำสั่ง R-Type ใน state machine แบบ multicycle
 
